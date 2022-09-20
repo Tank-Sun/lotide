@@ -1,5 +1,3 @@
-// FUNCTION IMPLEMENTATION
-
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -8,10 +6,11 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
+const head = function(array) {
+  return array[0];
+}
 
-assertEqual('Lighthouse Labs', 'Bootcamp');
-assertEqual('Tank', 'Tank');
-assertEqual(1, 2);
-assertEqual(1, 1);
-assertEqual(1, '1');
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(head([3]), 3);
+assertEqual(head([]), undefined);
