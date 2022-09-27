@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@tank_sun/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide for practise at Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,11 @@
     "url": "git+https://github.com/Tank-Sun/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name" : "Tank Sun",
+    "email" : "thomastank0926@gmail.com",
+    "github" : "https://github.com/Tank-Sun"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tank-Sun/lotide/issues"
