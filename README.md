@@ -29,9 +29,6 @@ The following functions are currently implemented:
 * `.head(array)`: description
 * `.tail(array)`: description
 * `.middle(array)`: description
-* `.assertArraysEqual(arr1, arr2)`: description
-* `.assertEqual(actual, expected)`: description
-* `.assertObjectsEqual(obj1, obj2)`: description
 * `.countLetters(string)`: description
 * `.countOnly(allItems, itemsToCount)`: description
 * `.eqArrays(arr1, arr2)`: description
